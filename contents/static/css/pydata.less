@@ -1,0 +1,228 @@
+@blue: #459DB9;
+@orange: #ee9041;
+@grey: #505b61;
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: @orange;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.6em;
+    margin-top: 2em;
+    margin-top: 1em;
+  }
+
+  h3 {
+    font-style: italic;
+    font-size: 1.4em;
+    margin-top: 1.8em;
+    margin-top: 0.9em;
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+
+  h5 {
+    font-size: 1.1em;
+  }
+
+  .register-large {
+    font-size: 2em;
+    background-color: @blue;
+  }
+
+}
+
+.shout {
+  position: relative;
+  font-style: italic;
+  font-weight: 600;
+  color: white;
+  font-size: 2.2em;
+  line-height: 1.3em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .louder {
+    font-size: 1.2em;
+  }
+
+  em {
+    color: orange;
+  }
+
+  a {
+   color: white;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+}
+
+// Header
+header {
+  .blue-stripe {
+    height: 70px;
+    background-color: @blue;
+
+    .container-fluid {
+      margin-top: -20px;
+      margin-left: 50px;
+    }
+  }
+}
+
+.navbg2 {
+  background-color: @grey;
+  text-align: center;
+
+  .container-fluid {
+    height: 50px;
+    margin-left: 50px;
+  }
+
+  .navbar-default {
+    color: white;
+    background-color: inherit;
+    border: 0;
+    margin-left: 50px;
+
+    //    @media (min-width: 768px) {
+    //      max-width: 80%;
+    //      margin-right: auto;
+    //      margin-left: auto;
+    //    }
+  }
+
+  .navbar-default .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    background-color: grey;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+  }
+}
+
+// Home
+.banner-picto {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 550px;
+  }
+}
+
+.banner-motto {
+  padding: 15px;
+  background-color: @grey;
+  color: white;
+  //font-size: 1.2em;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+  p {
+    margin: 0;
+  }
+}
+
+.banner-date-location {
+  background-color: @orange;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  .date {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .location {
+    margin: 0;
+  }
+}
+
+.banner-about {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.banner-keynotes {
+  background-color: @blue;
+  text-align: center;
+  padding-bottom: 30px;
+
+  .container {
+    width: 80%;
+  }
+
+  a {
+    color: white;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+  .speaker-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 14px;
+    width: 125px;
+    height: 125px;
+    border-radius: 75px;
+  }
+
+  .speaker-name {
+    font-size: 1.8em;
+    color: white;
+  }
+
+  .speaker-affiliation {
+    font-size: 1.6em;
+    font-style: italic;
+    color: lightgray;
+  }
+}
+
+.sponsors {
+  border-top: solid @blue 5px;
+  background-color: white;
+
+  img {
+    margin: 10px;
+  }
+
+  img.platinum {
+    height: 140px;
+  }
+  img.gold {
+    height: 60px;
+  }
+  img.silver {
+    height: 40px;
+  }
+}
+
+table.schedule {
+  .td {
+    min-width: 150px;
+  }
+}

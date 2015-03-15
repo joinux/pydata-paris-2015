@@ -1,0 +1,118 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="banner-picto">
+  <img src="/static/images/PyDataLogoBig-Paris2015.png">
+</div>
+
+<div class="banner-motto">
+  <p>A conference for developers and users of Python data tools</p>
+</div>
+
+<div class="banner-date-location">
+  <p class="date">April 3, 2015 </p>
+
+  <p class="location">Location: Telecom Paristech, 46 rue Barrault, 75013 Paris,
+    France</p>
+</div>
+
+<div class="banner-about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-1 col-md-11 col-sm-12">
+        <h2>About</h2>
+      </div>
+      <div class="col-md-offset-1 col-md-5 col-sm-12">
+        <p>PyData conferences are a gathering of users and developers of data
+          analysis tools in Python. The goals are to provide Python enthusiasts
+          a place to share ideas and learn from each other about how best to
+          apply the language and tools to ever-evolving challenges in the vast
+          realm of data management, processing, analytics, and
+          visualization.</p>
+
+        <p>We aim to be an accessible, community-driven conference, with
+          tutorials for novices, advanced topical workshops for practitioners,
+          and opportunities for package developers and users to meet in
+          person.</p>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <p>A major goal of PyData events and conferences is to provide a venue
+          for users across all the various domains of data analysis to share
+          their experiences and their techniques, as well as highlight the
+          triumphs and potential pitfalls of using Python for certain kinds of
+          problems.</p>
+
+        <p>PyData Paris 2015 is organized by <a
+            href="http://www.systematic-paris-region.org/">Systematic Paris
+          Region</a>, with the
+          generous help and support of <a href="http://www.numfocus.org/">NumFOCUS</a>
+          and <a href="/sponsors.html">our sponsors</a>.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10" style="text-align: center;">
+        <a href="https://www.weezevent.com/pydata-paris" target="_blank">
+          <button class="btn btn-primary register-large" type="button">Register
+            now
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="banner-keynotes">
+  <div class="shout">
+    <a href="/schedule.html">
+      <em>One</em> day, <em>two</em> tracks
+      <br>
+      <span class="louder"><em>Two</em> exciting keynotes</span>
+    </a>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      {% for speaker in page.metadata.keynote_speakers %}
+      <div class="col-md-4">
+        <a href="/schedule.html#{{ speaker.id }}">
+          <img class="speaker-image"
+              src="/static/images/speakers/{{ speaker.id }}.jpg">
+
+          <div class="speaker-name">{{speaker.name}}</div>
+          <div class="speaker-affiliation">{{ speaker.affiliation }}</div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-12">
+        <h1>{{page.metadata.heading}}</h1>
+
+        {{page.html}}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row white" style="padding-bottom: 30px; padding-top: 30px;">
+    <div id="content-area">
+      <div class="span12">
+        {% for post in posts %}
+        <h1>{{page.metadata.heading}}</h1>
+
+        {{page.html}}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

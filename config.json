@@ -1,0 +1,22 @@
+{
+  "locals": {
+    "url": "http://pydataparis.joinux.org/",
+    "name": "PyData Paris 2015",
+    "owner": "Stefane Fermigier",
+    "description": "PyData Paris Conference",
+    "articles": "posts"
+  },
+  "plugins": [
+    "wintersmith-nunjucks",
+    "wintersmith-less"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  }
+}
