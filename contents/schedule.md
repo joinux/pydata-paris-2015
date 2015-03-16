@@ -31,7 +31,7 @@ Here is the overall schedule:
 ## Program
 
 The CFP is now closed. We're finalizing the details, but here is a list of
-confirmed speakers already:
+confirmed speakers:
 
 ### Keynote speakers
 
@@ -56,24 +56,24 @@ with messy data, industry use cases...
 
 ##### Level: novice
 
-* Chloe-Agathe Azencott (Mines ParisTech): "Reaching your DREAMs with Python"
-* Emmanuelle Gouillart (CNRS): "introduction to scikit-image"
-* Antoine Pitrou (Continuum Analytics): "Numba, a JIT compiler for fast numerical code"
-* Ian Ozsvald (Mor Consulting): "Cleaning Confused Collections of Characters"
-* Serge Guelton and Pierrick Brunet (): "Pythran: Static Compilation of Parallel Scientific Kernels"
+* **Chloe-Agathe Azencott** (Mines ParisTech): "Reaching your DREAMs with Python"
+* **Emmanuelle Gouillart** (CNRS): "introduction to scikit-image"
+* **Antoine Pitrou** (Continuum Analytics): "Numba, a JIT compiler for fast numerical code"
+* **Ian Ozsvald** (Mor Consulting): "Cleaning Confused Collections of Characters"
+* **Serge Guelton** and **Pierrick Brunet** (): "Pythran: Static Compilation of Parallel Scientific Kernels"
 
 ##### Level: advanced or experts
 
-* Alexandre Gramfort (Telecom ParisTech): "Linear predictions with scikit-learn: simple and efficient"
-* Gilles Louppe (CERN): "Tree models with scikit-learn: great learners with little assumptions"
-* Kirill Smelkov (Nexedi): "out-of-core NumPy arrays without changing your code with wendelin-core"
+* **Alexandre Gramfort** (Telecom ParisTech): "Linear predictions with scikit-learn: simple and efficient"
+* **Gilles Louppe** (CERN): "Tree models with scikit-learn: great learners with little assumptions"
+* **Kirill Smelkov** (Nexedi): "out-of-core NumPy arrays without changing your code with wendelin-core"
 
 #### "Business" (use cases) talks
 
-* Julien Sananikone (PriceMinister), Benjamin Guinebertière (Microsoft), Samuel Charron (Data Publica), Thomas Cabrol (Dataiku): "Industrial uses of scikit-learn" (business roundtable)
-* Jean-Paul Smets and Sébastien Robin (Nexedi): "Industrial Monitoring with the Wendelin BIg Data platform"
-* Clément Jambou (Lyft): "PyData at Lyft"
-* Jean Maynier (Kpler): "PyData at Kpler"
+* **Julien Sananikone** (PriceMinister), **Benjamin Guinebertière** (Microsoft), **Samuel Charron** (Data Publica), **Thomas Cabrol** (Dataiku): "Industrial uses of scikit-learn" (business roundtable)
+* **Jean-Paul Smets** and **Sébastien Robin** (Nexedi): "Industrial Monitoring with the Wendelin BIg Data platform"
+* **Clément Jambou** (Lyft): "PyData at Lyft"
+* **Jean Maynier** (Kpler): "PyData at Kpler"
 
 
 <a href="https://www.weezevent.com/pydata-paris" target="_blank">

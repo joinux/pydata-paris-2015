@@ -24,14 +24,14 @@ learning, NoSQL, simulation, business analytics, data visualisation, etc.
 
 By attending PyData Paris 2015, you will:
 
-  * **Learn** about the leading Python frameworks, libraries and toolkit, directly from their lead developers and from experts.
-  * Get to know, ahead of the curve, the **emerging research and industrial projects** that will shape the Python data ecosystem tomorrow.
-  * Understand **how to apply** data science and technology techniques to concrete problems, from business strategy to the nitty gritty details that are often overlooked.
-  * **Network** with your peers, make new connections, foster new collaborations.
+* **Learn** about the leading Python frameworks, libraries and toolkit, directly from their lead developers and from experts.
+* Get to know, ahead of the curve, the **emerging research and industrial projects** that will shape the Python data ecosystem tomorrow.
+* Understand **how to apply** data science and technology techniques to concrete problems, from business strategy to the nitty gritty details that are often overlooked.
+* **Network** with your peers, make new connections, foster new collaborations.
 
 ### Program
 
-We has a dense program with **two keynotes** and **16 talks and roundtables** in
+We have a [dense program](/schedule.html) with **two keynotes** and **16 talks and roundtables** in
 **two parallel tracks**:
 
 * One track, will be focussed on **advanced topics**, bleeding edge techniques, and will be aimed at developers and scientists already experienced with the subjects at hand.
@@ -49,8 +49,7 @@ sprint.
 ### Venue and tickets
 
 PyData Paris 2015 takes place at [Institut Telecom in Paris](/venue.html),
-a venue with enough capacity for **200
-attendees**.
+a venue with enough capacity for **200 attendees**.
 
 Price for tickets is **100 Euros**, with **discounts**
 students, academics and bootstrapped startups.
