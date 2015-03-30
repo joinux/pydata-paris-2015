@@ -145,7 +145,7 @@ database calls.
 
 > **Bio**: I lead the engineering and operational activities of Kpler (formerly eCO2market).
 
-Founded in Paris in 2009, Kpler is an intelligence company providing transparency solutions in energy markets. We develop proprietary technologies that systematically aggregate data from hundreds of sources, ranging from logistics and commercial, to governmental and shipping databases. By connecting the dots across fragmented information landscapes, we are able to deliver our clients with unique real-time market coverage.
+> Founded in Paris in 2009, Kpler is an intelligence company providing transparency solutions in energy markets. We develop proprietary technologies that systematically aggregate data from hundreds of sources, ranging from logistics and commercial, to governmental and shipping databases. By connecting the dots across fragmented information landscapes, we are able to deliver our clients with unique real-time market coverage.
 
 
 **Fabien Mangeant et Vincent Feuillard** (Airbus): "scikit-learn for predictive maintenance at Airbus"
