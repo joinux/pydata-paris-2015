@@ -3,15 +3,14 @@ title: PyData Paris 2015
 author: sfermigier
 template: home.html
 keynote_speakers:
-  - name: Francesc Alted
-    id: alted
-    affiliation: UberResearch GmbH
-  - name: Alexandre Gramfort
-    id: gramfort
-    affiliation: Institut Telecom
   - name: Gael Varoquaux
     id: varoquaux
     affiliation: INRIA
+    bio: Core contributor to scikit-learn and other open source PyData projects
+  - name: Francesc Alted
+    id: alted
+    affiliation: UberResearch GmbH
+    bio: Creator of the PyTables, numexpr, Blosc and lately bcolz open source projects
 ---
 
 ## Attending PyData Paris 2015
@@ -56,8 +55,4 @@ students, academics and bootstrapped startups.
 
 All proceeds from PyData Paris, if any, will be used for the continued
 development of the open-source tools used by data scientists.
-
-<a href="https://www.weezevent.com/pydata-paris" target="_blank">
-<button class="btn btn-default btn-primary register-large" type="button">Register now</button></a>
-
 

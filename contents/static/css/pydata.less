@@ -36,9 +36,23 @@ body {
     font-size: 1.1em;
   }
 
-  .register-large {
+  .btn.register-large {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    font-size: 2em;
+    background-color: @orange;
+  }
+
+  .btn.view-schedule-large {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
     font-size: 2em;
     background-color: @blue;
+  }
+
+  .main {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
 }
@@ -62,7 +76,7 @@ body {
   }
 
   a {
-   color: white;
+    color: white;
   }
   a:hover {
     text-decoration: none;
@@ -194,9 +208,9 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 14px;
-    width: 125px;
-    height: 125px;
-    border-radius: 75px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
   }
 
   .speaker-name {
@@ -205,14 +219,18 @@ header {
   }
 
   .speaker-affiliation {
+    margin-top: -.2em;
     font-size: 1.6em;
     font-style: italic;
     color: lightgray;
   }
 }
 
+//
+// Footer
+//
+
 .sponsors {
-  border-top: solid @blue 5px;
   background-color: white;
 
   img {
@@ -220,18 +238,35 @@ header {
   }
 
   img.platinum {
-    height: 140px;
+    //height: 140px;
+    max-width: 100%;
   }
   img.gold {
-    height: 60px;
+    //height: 60px;
+    max-width: 100%;
   }
   img.silver {
+    //max-width: 100%;
     height: 40px;
   }
 }
 
-table.schedule {
-  .td {
+.register-now-stripe {
+  padding: 30px;
+  background-color: #eee;
+  text-align: center;
+}
+
+//
+// Schedule
+//
+.schedule {
+  border: 1px solid black;
+
+  th, td {
     min-width: 150px;
+    border: 1px solid black;
+    padding: 5px;
   }
+
 }

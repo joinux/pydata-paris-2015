@@ -1,8 +1,15 @@
 ---
 title: Conference Schedule
 author: sfermigier
-template: text.html
+template: wide-text.html
 ---
+
+<style>
+ul li ul {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+</style>
 
 # Schedule
 
@@ -11,38 +18,109 @@ The conference will take place on April 3rd, 2015.
 Here is the overall schedule:
 
 <table class="schedule">
-<tr><td width="100">8:30</td><td>Doors open</td></tr>
-<tr><td>9:00</td><td>Introduction by the organisers</td></tr>
-<tr><td>9:10</td><td>Opening Keynote (Francesc Alted)</td></tr>
-<tr><td>10:00</td><td>Talks (2 tracks)</td></tr>
-<tr><td>10:45</td><td>Coffee break</td></tr>
-<tr><td>11:15</td><td>Talks (2 tracks)</td></tr>
-<tr><td>12:00</td><td>Talks (2 tracks)</td></tr>
-<tr><td>12:45</td><td>Lunch break</td></tr>
-<tr><td>14:00</td><td>Talks (2 tracks)</td></tr>
-<tr><td>14:45</td><td>Talks (2 tracks)</td></tr>
-<tr><td>15:30</td><td>Talks (2 tracks)</td></tr>
-<tr><td>16:15</td><td>Coffee break</td></tr>
-<tr><td>16:45</td><td>Talks (2 tracks)</td></tr>
-<tr><td>17:30</td><td>Closing Keynote (Gael Varoquaux & Alexandre Gramfort)</td></tr>
-<tr><td>18:30</td><td>End of the conference</td></tr>
+  <tr>
+    <td width="80">8:30</td>
+    <td colspan="2">Doors open</td>
+  </tr>
+  <tr>
+    <td>9:00</td>
+    <td colspan="2">Introduction by the organisers</td>
+  </tr>
+  <tr>
+    <td>9:10</td>
+    <td colspan="2">Opening Keynote (**Gael Varoquaux**)</td>
+  </tr>
+  <tr>
+    <td>10:00</td>
+    <td width="50%">Track 1: <b>A gentle introduction to PyData</b><br>
+      *Alexandre Gramfort, then Emmanuelle Gouillart*</td>
+    <td width="50%">Track 2: <b>PyData in the real world</b><br>
+      *Ian Ozsvald*
+    </td>
+  </tr>
+  <tr>
+    <td>10:45</td>
+    <td colspan="2">Coffee break</td>
+  </tr>
+  <tr>
+    <td>11:15</td>
+    <td>Track 1 - continued<br>
+      *Gilles Louppe* </td>
+    <td>Track 2 - continued<br>
+      *Chloe-Agathe Azencott, then Camilla Montonen*</td>
+  </tr>
+  <tr>
+    <td>12:00</td>
+    <td>Track 1 - continued<br>
+    *Joris Van Den Bossche*</td>
+    <td>Track 2 - continued<br>
+    *AXA Data Innovation Lab*
+    </td>
+  </tr>
+  <tr>
+    <td>12:45</td>
+    <td colspan="2">Lunch break</td>
+  </tr>
+  <tr>
+    <td>14:00</td>
+    <td>Track 3: <b>High Performance PyData</b><br>
+    *Niels Zeilemaker*</td>
+    <td>Track 4: <b>Industrial and business case studies</b><br>
+    *Jean-Paul Smets and Sébastien Robin*
+    </td>
+  </tr>
+  <tr>
+    <td>14:45</td>
+    <td>Track 3 - continued<br>
+    *Serge Guelton and Pierrick Brunet*</td>
+    <td>Track 4 - continued<br>
+    *Jean Maynier, then Fabien Mangeant et Vincent Feuillard*</td>
+  </tr>
+  <tr>
+    <td>15:30</td>
+    <td>Track 3 - continued<br>
+      *Antoine Pitrou*</td>
+    <td>Track 4 - continued<br>
+      *Julien Sananikone, Benjamin Guinebertière, Samuel Charron, Thomas Cabrol*
+    </td>
+  </tr>
+  <tr>
+    <td>16:15</td>
+    <td colspan="2">Coffee break</td>
+  </tr>
+  <tr>
+    <td>16:45</td>
+    <td>Track 3 - continued<br>
+      *Kirill Smelkov*
+    </td>
+    <td>Track 4 - continued<br>
+      *Clément Jambou*
+    </td>
+  </tr>
+  <tr>
+    <td>17:30</td>
+    <td colspan="2">Closing Keynote (**Francesc Alted**)</td>
+  </tr>
+  <tr>
+    <td>19:00</td>
+    <td colspan="2">End of the conference</td>
+  </tr>
 </table>
 
 ## Program
 
-The CFP is now closed. We're finalizing the details, but here is a list of
-confirmed speakers:
+(See also the [detailed program with talks abstracts and speakers bios](/talks.html).)
 
 ### Keynote speakers
 
-Two keynote speeches by three (1+2) leaders of the PyData community, to get us
+Two keynote speeches by leaders of the PyData community, to get us
 inspired by the bright future of Python in Big Data and Machine Learning:
 
-<a id="alted"></a>
-* **Francesc Alted** (UberResearch GmbH), "handling Big Data, more from the point of view of technological handicaps (different hardware, software, architectural paradigms for databases...)" (working title)
-
 <a id="varoquaux"></a><a id="gramfort"></a>
-* **Gaël Varoquaux** (INRIA) and **Alexandre Gramfort** (Telecom ParisTech): "scikit-learn for easy machine learning: the vision, the tools its development"
+* **Gaël Varoquaux** (INRIA): "scikit-learn for easy machine learning: the vision, the tools and its development"
+
+<a id="alted"></a>
+* **Francesc Alted** (UberResearch GmbH), "New Trends In Storing And Analyzing Large Data Silos With Python".
 
 ### Speakers
 
@@ -50,31 +128,59 @@ inspired by the bright future of Python in Big Data and Machine Learning:
 performance computing (HPC) with Python, machine learning, statistics, dealing
 with messy data, industry use cases...
 
-#### Technical talks
+All talks are 40 minutes long except noted otherwise.
 
-(Note: in certain cases, we still need to check that the classification below is correct.) 
+#### Track 1 (morning): A gentle introduction to PyData technologies
 
-##### Level: novice
+- 10h-10h45: 
+ - **Alexandre Gramfort** (Telecom ParisTech): “Linear predictions with scikit-learn: simple and efficient” (30’)
+ - **Emmanuelle Gouillart** (CNRS): “introduction to scikit-image” (15’)
 
-* **Chloe-Agathe Azencott** (Mines ParisTech): "Reaching your DREAMs with Python"
-* **Emmanuelle Gouillart** (CNRS): "introduction to scikit-image"
-* **Antoine Pitrou** (Continuum Analytics): "Numba, a JIT compiler for fast numerical code"
-* **Ian Ozsvald** (Mor Consulting): "Cleaning Confused Collections of Characters"
-* **Serge Guelton** and **Pierrick Brunet** (): "Pythran: Static Compilation of Parallel Scientific Kernels"
+- 11h15-12h:
+ - **Gilles Louppe** (CERN): “Tree models with scikit-learn: great learners with little assumptions”
 
-##### Level: advanced or experts
+- 12h-12h45:
+ - **Joris Van Den Bossche** (Ghent University): “Introduction to Pandas”
 
-* **Alexandre Gramfort** (Telecom ParisTech): "Linear predictions with scikit-learn: simple and efficient"
-* **Gilles Louppe** (CERN): "Tree models with scikit-learn: great learners with little assumptions"
-* **Kirill Smelkov** (Nexedi): "out-of-core NumPy arrays without changing your code with wendelin-core"
+#### Track 2 (morning): PyData in the real world
 
-#### "Business" (use cases) talks
+- 10h-10h45: 
+ + **Ian Ozsvald** (Mor Consulting): “Cleaning Confused Collections of Characters”
 
-* **Julien Sananikone** (PriceMinister), **Benjamin Guinebertière** (Microsoft), **Samuel Charron** (Data Publica), **Thomas Cabrol** (Dataiku): "Industrial uses of scikit-learn" (business roundtable)
-* **Jean-Paul Smets** and **Sébastien Robin** (Nexedi): "Industrial Monitoring with the Wendelin BIg Data platform"
-* **Clément Jambou** (Lyft): "PyData at Lyft"
-* **Jean Maynier** (Kpler): "PyData at Kpler"
+- 11h15-12h:
+ + **Chloe-Agathe Azencott** (Mines ParisTech): “Reaching your DREAMs with Python” (15’)
+ + **Camilla Montonen**: “Rush Hour Dynamics: Simulating and visualising commuter flow through the London Underground using graphtool and bokeh” (30’)
+
+- 12h-12h45:
+ + Data scientists from **AXA Data Innovation Lab** (Axa): “Whitening the blackbox : why and how to explain machine learning predictions”
 
 
-<a href="https://www.weezevent.com/pydata-paris" target="_blank">
-<button class="btn btn-default btn-primary register-large" type="button">Register now</button></a>
+#### Track 3 (afternoon): High Performance PyData
+
+- 14h-14h45
+ + **Niels Zeilemaker** (GoDataDriven): "Embarrassingly parallel database calls with Python"
+
+- 14h45-15h30
+ + **Serge Guelton and Pierrick Brunet** (QuarksLab): “Pythran: Static Compilation of Parallel Scientific Kernels”
+
+- 15h30-16h15
+ + **Antoine Pitrou** (Continuum Analytics): “Numba, a JIT compiler for fast numerical code”
+
+- 16h45-17h30
+ + **Kirill Smelkov** (Nexedi): “Out-of-core NumPy arrays without changing your code with wendelin-core”
+ 
+#### Track 4 (afternoon): Industrial and business case studies
+
+- 14h-14h45
+ + **Jean-Paul Smets and Sébastien Robin** (Nexedi): “Industrial Monitoring with the Wendelin Big Data platform”
+
+- 14h45-15h30
+  + **Jean Maynier** (Kpler): "Python, SQLalchemy and Scrapy for real-time data processing at Kpler” (20’)
+  + **Fabien Mangeant et Vincent Feuillard** (Airbus): "scikit-learn for predictive maintenance at Airbus" (20')
+ 
+- 15h30-16h15
+ + **Julien Sananikone** (PriceMinister), **Benjamin Guinebertière** (Microsoft), **Samuel Charron** (Data Publica), **Thomas Cabrol** (Dataiku): “Industrial uses of scikit-learn” (business roundtable)
+
+- 16h45-17h30
+ + **Clément Jambou** (Lyft): “Using Python and Data science to tackle real-time transportation problems at Lyft"”
+

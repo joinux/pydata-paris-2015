@@ -6,7 +6,7 @@ build:
 serve:
 	wintersmith preview
 
-deploy:
+deploy: build
 	fab deploy
 
 #serve:

@@ -54,9 +54,13 @@
       <div class="col-md-offset-1 col-md-10" style="text-align: center;">
         <a href="https://www.weezevent.com/pydata-paris" target="_blank">
           <button class="btn btn-primary register-large" type="button">Register
-            now
-          </button>
-        </a>
+            now!</button></a>
+
+        <span style="padding: 1em;"></span>
+
+        <a href="/schedule.html">
+          <button class="btn btn-primary view-schedule-large" type="button">View
+            program</button></a>
       </div>
     </div>
   </div>
@@ -73,14 +77,16 @@
 
   <div class="container">
     <div class="row">
+      <div class="col-md-1"></div>
       {% for speaker in page.metadata.keynote_speakers %}
-      <div class="col-md-4">
+      <div class="col-md-5">
         <a href="/schedule.html#{{ speaker.id }}">
           <img class="speaker-image"
               src="/static/images/speakers/{{ speaker.id }}.jpg">
 
           <div class="speaker-name">{{speaker.name}}</div>
           <div class="speaker-affiliation">{{ speaker.affiliation }}</div>
+          <div class="speake-bio">{{ speaker.bio }}</div>
         </a>
       </div>
       {% endfor %}
