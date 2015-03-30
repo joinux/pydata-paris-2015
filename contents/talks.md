@@ -34,7 +34,9 @@ blockquote p {
 
 Alexandre Gramfort (Telecom ParisTech): “Linear predictions with scikit-learn: simple and efficient”
 
-> **Bio**: I'm an Assistant Professor at Telecom Paristech. My research interests include: Brain functional imaging (MEG, EEG, fMRI), Computational Neurosciences, Signal and Image Processing, Computer Vision, Scientific Computing, Machine Learning.
+> **Abstract**: Scikit-Learn offers numerous state-of-the-art models for prediction (regression and classification). Linear models (e.g. Ridge, Logistic Regression) are the simplest of these models. They have pratical benefits such as interpretability and limited computation time while offering the best performance for some applications. This talk will cover the basics of these models with examples and demonstrate how they can scale to datasets that do not fit in memory or how they can incorporate simple polynomial non-linearities.
+
+> **Bio**: Alexandre Gramfort is Assistant Professor at Telecom Paristech in the signal and image processing department. His field of expertise is signal and image processing, statistical machine learning, software engineering and scientific computing applied primarily to neuroscience data. He has been a core developer of Scikit-Learn since 2010.
 
 
 Emmanuelle Gouillart (CNRS): “**Introduction to scikit-image**”
