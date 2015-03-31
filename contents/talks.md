@@ -140,7 +140,7 @@ database calls.
 
 > Wendelin (<http://wendelin.io/>) combines automated cluster deployment, distributed data persistency for NumPy arrays, parallel data processing, fluentd compliant data ingestion interface and JIO compliant javascript interface. It is an all­in­one open source solution that provides a 100% native python alternative to hybrid solutions based on Spark.
 
-> The talk is derived from the presentation made at MariaDB community event (<https://mariadb.org/en/community­events/>). The presentation of Wendelin Full Stack will be shorter than in Santa Clara in order to provide enough time to present the first implementation for Wind Turbines. We will show in particular which parts of data analysis are handled on server side with pydata libraries, which parts of data analysis are handled on browser side in javascript and how both can be integrated to minimize implementation costs.
+> The talk is derived from the presentation made at MariaDB community event (<https://mariadb.org/en/community-events/>). The presentation of Wendelin Full Stack will be shorter than in Santa Clara in order to provide enough time to present the first implementation for Wind Turbines. We will show in particular which parts of data analysis are handled on server side with pydata libraries, which parts of data analysis are handled on browser side in javascript and how both can be integrated to minimize implementation costs.
 
 > The talk concludes on Wendelin platform roadmap.
 

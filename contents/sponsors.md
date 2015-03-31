@@ -33,11 +33,26 @@ Abilian is an open-source software vendor proposing innovative solutions for you
 
 With Abilian’s solutions, your enterprise will become more creative, reactive, open and, in one word, competitive.
 
+
 #### [Datadog](http://www.datadoghq.com/)
 
 Datadog is a monitoring service for IT, Operations and Development teams who write and run applications at scale, and want to turn the massive amounts of data produced by their apps, tools and services into actionable insight.
 
+
 #### [Dataiku](http://www.dataiku.com/)
+
+Dataiku develops Data Science Studio (DSS), a software platform that aggregates all the steps and big data tools necessary to get from raw data to production ready applications.
+
+It shortens the load-prepare-test-deploy cycles required to create data driven applications.
+
+Thanks to its visual and interactive workspace, it is accessible to both Data Scientists and Business Analysts.
+
+
+#### [Equancy](http://www.equancy.com)
+
+Dans le cadre de son expertise Digital et Data, Equancy accompagne les directions marketing, CRM, digitales de ses clients grands comptes (Accor, AXA, Disney, Nissan…) et réalise des missions de data analytics, data science et data visualization, etc.
+
+Equancy est aujourd’hui en pointe sur l’utilisation de la donnée afin d’optimiser l’ensemble de la démarche marketing, tant sur le web que dans les problématiques CRM, sociales ou de personnalisation. L’explosion des « big data » représente un challenge pour nos clients et une opportunité pour Equancy, qui a développé un vrai savoir-faire dans ce domaine.
 
 
 #### [Logilab](http://www.logilab.com/)
@@ -60,8 +75,9 @@ Since 2005, Systematic has developed 258 R&D projects representing a total R&D i
 
 ### [AFPY](http://www.afpy.org/)
 
-French-speaking Python Users Association.
+The French-speaking Python Users Association.
  
+
 ### [Inria](http://www.inria.fr/)
 
 Inria, a public research institute in computational sciences, aims to guarantee a maximum impact from its R&D results. It contributes to innovation within France by transferring its technologies and skills to industry.
@@ -69,6 +85,7 @@ Inria, a public research institute in computational sciences, aims to guarantee 
 Inria has a range of schemes to promote technology transfer, including a programme specifically aimed at SMEs, strategic partnerships with R&D departments of major industrial groups, and support for business start-ups. A team of professionals is on hand to support researchers and entrepreneurs in the development of their value-added projects.
 
 Through its nationwide computational sciences technology transfer initiatives, Inria supports French competitiveness and the development of innovative businesses.
+
 
 ### [Institut Telecom]()
 
