@@ -32,28 +32,28 @@ blockquote p {
 ## Track 1 (morning): A gentle introduction to PyData technologies
 
 
-Alexandre Gramfort (Telecom ParisTech): “Linear predictions with scikit-learn: simple and efficient”
+**Alexandre Gramfort** (Telecom ParisTech): “Linear predictions with scikit-learn: simple and efficient”
 
 > **Abstract**: Scikit-Learn offers numerous state-of-the-art models for prediction (regression and classification). Linear models (e.g. Ridge, Logistic Regression) are the simplest of these models. They have pratical benefits such as interpretability and limited computation time while offering the best performance for some applications. This talk will cover the basics of these models with examples and demonstrate how they can scale to datasets that do not fit in memory or how they can incorporate simple polynomial non-linearities.
 
 > **Bio**: Alexandre Gramfort is Assistant Professor at Telecom Paristech in the signal and image processing department. His field of expertise is signal and image processing, statistical machine learning, software engineering and scientific computing applied primarily to neuroscience data. He has been a core developer of Scikit-Learn since 2010.
 
 
-Emmanuelle Gouillart (CNRS): “**Introduction to scikit-image**”
+**Emmanuelle Gouillart** (CNRS): “Introduction to scikit-image”
 
 > **Abstract**: scikit-image is a general-purpose image processing module for the Python programming language. It is designed to interact efficiently with other popular scientific Python libraries, such as NumPy and SciPy. In particular, scikit-image leverages the powerful data array container of NumPy, that can store images of various dimensions (2-D, 2D RGB, 3D, 4D...).
 
 > **Bio**:  I'm a researcher in physics, working in the joint unit between the French institute CNRS and the company Saint-Gobain. I'm a member of the core development team of scikit-image, and I've been focussing in particular on implementing segmentation and denoising algorithms. I'm also a member of the PSF.
 
 
-Gilles Louppe (CERN): “**Tree models with scikit-learn: great learners with little assumptions**”
+**Gilles Louppe** (CERN): “Tree models with scikit-learn: great learners with little assumptions”
 
 > **Bio**: Researcher in machine learning. My far ambition is to make a dent in science through data.
 
 > Specialties: Machine learning, Scientific computing, Software engineering.
 
 
-Joris Van Den Bossche (Ghent University): “**Introduction to Pandas**”
+**Joris Van Den Bossche** (Ghent University): “Introduction to Pandas”
 
 > **Abstract**: Basic introduction to pandas, explaining the key concepts and defining features
 
@@ -89,7 +89,7 @@ Joris Van Den Bossche (Ghent University): “**Introduction to Pandas**”
 Data London for showing her how amazing Python can be.
 
 
-Data scientists from AXA Data Innovation Lab (Axa): “**Whitening the blackbox : why and how to explain machine learning predictions**”
+**Data scientists from AXA Data Innovation Lab** (Axa): “Whitening the blackbox : why and how to explain machine learning predictions”
 
 > **Abstract**: Unfortunately, the predictive models that are most powerful are usually the least interpretable. However in some cases, for example fraud detection, end users need an understandable explanation of a particular prediction, at observation level, and not only at population level (e.g. : features importance).
 > During this talk we will present different approaches to tackle this issue, both for random forests and gradient boosting trees. We will also demonstrate an implementation based on scikit-learn.
@@ -105,11 +105,11 @@ database calls.
 > Expected audience: Python developers building real­time applications needing increase their response time.
 
 
-**Serge Guelton and Pierrick Brunet** (QuarksLab): “Pythran: Static Compilation of Parallel Scientific Kernels”
+**Serge Guelton and Pierrick Brunet** (Namek): “Pythran: Static Compilation of Parallel Scientific Kernels”
 
 > **Abstract**: As the use of Python coupled to Numpy/SciPy for numerical computation increases, many tools to optimize performance have emerged. Indeed, this duo has relatively poor performance when compared to scientific codes written in legacy languages like C or Fortran. Cython, Numba, numexpr and parakeet belongs to this new compiler ecosystem. And so does Pythran, a Python to C++11 translator for scientific Python.
 
-> Pythran uses a static compilation approach a la Cython, but with full backward compatibility with Python. It does not only turns Python code into C++ code, it also performs Python/Numpy specific optimizations, generates calls to a parallel, vectorized runtime and makes it possible to write OpenMP annotation in the original Python code. It supports a large range of Numpy functions and can combine them in efficient ways: it can optimize high­level modern Python/Numpy codes and not only Fortran­with­a­Python­flavor ones.
+> Pythran uses a static compilation approach a la Cython, but with full backward compatibility with Python. It does not only turns Python code into C++ code, it also performs Python/Numpy specific optimizations, generates calls to a parallel, vectorized runtime and makes it possible to write OpenMP annotation in the original Python code. It supports a large range of Numpy functions and can combine them in efficient ways: it can optimize high­level modern Python/Numpy codes and not only Fortran­ with­ a­ Python­ flavor ones.
 
 > This talk presents the existing compilation approach and optimization opportunities for numerical Python, their strengths and weaknesses, then focus on the specificities of the Pythran compiler.
 
