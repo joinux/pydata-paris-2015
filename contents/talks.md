@@ -48,7 +48,7 @@ Emmanuelle Gouillart (CNRS): “**Introduction to scikit-image**”
 
 Gilles Louppe (CERN): “**Tree models with scikit-learn: great learners with little assumptions**”
 
-> **Bio**: Researcher in machine learning. My far ambition is to make a dent in science through data. 
+> **Bio**: Researcher in machine learning. My far ambition is to make a dent in science through data.
 
 > Specialties: Machine learning, Scientific computing, Software engineering.
 
@@ -66,7 +66,7 @@ Joris Van Den Bossche (Ghent University): “**Introduction to Pandas**”
 
 > **Abstract**: Success in data science projects depends upon clean input data. Text data is often badly encoded, lacks data types and is inconsistent. Aimed at the intermediate Pythonista I'll talk about the time saving tools I use in ModelInsight to clean and normalise my data so you can easily work on new projects.
 
-> **Bio**: As a contract data scientist working at a high strategic level, my role is to uncover potential revenue streams that can be exploited in clients’ large data sets. This work also includes scaling existing systems and strategic design for new systems. 
+> **Bio**: As a contract data scientist working at a high strategic level, my role is to uncover potential revenue streams that can be exploited in clients’ large data sets. This work also includes scaling existing systems and strategic design for new systems.
 
 
 **Chloe-Agathe Azencott** (Mines ParisTech): “Reaching your DREAMs with Python”
@@ -116,9 +116,11 @@ database calls.
 
 **Antoine Pitrou** (Continuum Analytics): “Numba, a JIT compiler for fast numerical code”
 
-> **Abstract**: This talk will be a general introduction to Numba. Numba is a just­in­time Python compiler that allows you to speed up numerical algorithms for which fast linear algebra (i.e. Numpy array operations) is not enough. It has backends for the CPU and for CUDA GPUs.
+> **Abstract**: This talk will be a general introduction to Numba. Numba is a just­-in-­time Python compiler that allows you to speed up numerical algorithms for which fast linear algebra (i.e. Numpy array operations) is not enough. It has backends for the CPU and for CUDA GPUs.
 
-> Expected audience: Python programmers / scientists who have an interest in speeding up numerical routines. Also, people who are curious about attempts at high­performance Python.
+> Expected audience: Python programmers / scientists who have an interest in speeding up numerical routines. Also, people who are curious about attempts at high-­performance Python.
+
+> **Bio**: Antoine Pitrou is a senior software engineer.  A Python core developer since 2008, he works at Continuum Analytics on Numba.
 
 
 **Kirill Smelkov** (Nexedi): “Out-of-core NumPy arrays without changing your code with wendelin-core”
