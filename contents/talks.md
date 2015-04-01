@@ -162,7 +162,15 @@ database calls.
 
 > Benjamin Guinebertière is technical evangelist at Microsoft.
 
-> Samuel Charron is a R&D Software engineer interested in data mining, machine learning, large data structures, data distribution.
+> Combining a strong background in webmining and big data technologies
+with a deep interest in machine learning, Samuel Charron has earned
+the title of Big Data Sergeant at Data Publica, where he alternates
+between contributions to the development of the infrastructure of the
+C-Radar product and stints of rapid prototyping with Python data
+science libs (such as pandas, sklearn).
+In particular, he works on NLP related problems using unstructured
+web-scraped data to enrich corporate information.
+
 
 > Thomas is Dataiku’s Chief Data Scientist. Thomas started his career in data mining for large retail and telecommunications companies. Then he lead the data mining team and geo-marketing initiatives at Apple Europe. He was lead data scientist at qunb, a data visualization startup. He spent most of his career deriving value from large datasets using cutting-edge innovations. He is fluent in all the data scientists linguas: R, Python, SAS...
 
