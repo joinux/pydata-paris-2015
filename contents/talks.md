@@ -160,7 +160,8 @@ database calls.
 
 > **Bio**: Julien Sananikone is Project manager at PriceMinister. 
 
-> Benjamin Guinebertière is technical evangelist at Microsoft.
+> Benjamin Guinebertière is technical evangelist at Microsoft. Benjamin works with startups and companies of different sizes to help them technically adopt Microsoft Azure cloud, should they use Big Data, Machine Learning or other technologies. He also speaks at conferences, writes (blogs, …) and takes feedback.
+
 
 > Combining a strong background in webmining and big data technologies
 with a deep interest in machine learning, Samuel Charron has earned
