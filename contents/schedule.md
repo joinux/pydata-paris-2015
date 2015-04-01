@@ -102,7 +102,11 @@ Here is the overall schedule:
     <td colspan="2">Closing Keynote (**Francesc Alted**)</td>
   </tr>
   <tr>
-    <td>19:00</td>
+    <td>18:30</td>
+    <td colspan="2">Closing cocktail</td>
+  </tr>
+  <tr>
+    <td>19:30</td>
     <td colspan="2">End of the conference</td>
   </tr>
 </table>

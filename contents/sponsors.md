@@ -20,6 +20,13 @@ PyData Paris would not be possible without the help of our generous sponsors.
 
 #### [Microsoft](http://www.microsoft.com/click/services/Redirect2.ashx?CR_CC=200599329)
 
+Depuis 10 ans déjà :  Microsoft est un acteur et contributeur de l’open source !
+ 
+Au cœur de la stratégie Microsoft « Cloud first, Mobile first », les technologies open source sont essentielles. Pour relever les défis posés par les environnements mixtes devices ou cloud, il faut capitaliser sur les compétences et optimiser les investissements existants.
+ 
+Contributeur sur des projets majeurs de la communauté (Linux, PHP, ...), Microsoft va bien au-delà de l'interopérabilité technologique pour répondre aux enjeux du Web, de l'industrialisation des développements multiplateformes, multi-langages. Le web, l'agilité et devops, le machine learning et le big data sont autant de défis que nous pouvons relever ensemble.
+
+
 #### [Nexedi](http://www.nexedi.com/)
 
 Nexedi was founded in 2001 with the creation of the ERP5 project, whose first implementation was awarded "Best ERP project" in 2004. Our headquarters are located in Lille, France. We have Nexedi offices at your service in Brazil, Germany, Japan and Senegal.
@@ -50,9 +57,11 @@ Thanks to its visual and interactive workspace, it is accessible to both Data Sc
 
 #### [Equancy](http://www.equancy.com)
 
-Dans le cadre de son expertise Digital et Data, Equancy accompagne les directions marketing, CRM, digitales de ses clients grands comptes (Accor, AXA, Disney, Nissan…) et réalise des missions de data analytics, data science et data visualization, etc.
+Relevant data analysis feeds effective strategy, leads to improved performance and ultimately accelerates business growth. Our team of data scientists and web analysts will guide your initiatives with pragmatic, tailor-made recommendations based on big data and deep customer insights.
 
-Equancy est aujourd’hui en pointe sur l’utilisation de la donnée afin d’optimiser l’ensemble de la démarche marketing, tant sur le web que dans les problématiques CRM, sociales ou de personnalisation. L’explosion des « big data » représente un challenge pour nos clients et une opportunité pour Equancy, qui a développé un vrai savoir-faire dans ce domaine.
+With offices in Paris, New York, Shanghai and Bangalore and a team of 150 people worldwide, Equancy is a global consulting firm exclusively dedicated to marketing and corporate communications. We offer high-level advice to the senior management of some of the most well-known brands in the world, delivering them actionable strategies for profitable growth., we have the global reach and local knowledge to guide our clients in their home markets and abroad.
+ 
+More info about Equancy on <http://www.equancy.com/>
 
 
 #### [Logilab](http://www.logilab.com/)
