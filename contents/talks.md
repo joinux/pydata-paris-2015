@@ -48,9 +48,9 @@ blockquote p {
 
 **Gilles Louppe** (CERN): “Tree models with scikit-learn: great learners with little assumptions”
 
-> **Bio**: Researcher in machine learning. My far ambition is to make a dent in science through data.
+> **Abstract**: This talk gives an introduction to tree-based methods, both from a theoretical and practical point of view. It covers decision trees, random forests and boosting estimators, along with concrete examples based on Scikit-Learn about how they work, when they work and why they work. 
 
-> Specialties: Machine learning, Scientific computing, Software engineering.
+> **Bio**: Core contributor of Scikit-Learn, Researcher in machine learning, currently at CERN (Switzerland).
 
 
 **Joris Van Den Bossche** (Ghent University): “Introduction to Pandas”
