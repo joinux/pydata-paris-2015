@@ -85,7 +85,12 @@ Since 2005, Systematic has developed 258 R&D projects representing a total R&D i
 ### [AFPY](http://www.afpy.org/)
 
 The French-speaking Python Users Association.
+
+
+### [Continuum Analytics](http://www.continuum.io/)
  
+We build technologies that enable analysts to answer questions from the data all around us. By engaging open source communities, we are building useful tools that are sustainable and widely used. By focusing on collaborative technologies, we give analysts a better medium to communicate their decision process and focus their stakeholders on the details that matter most. In creating a platform for distributing that expertise, we enable teams to quickly share insights and iterate on the solutions most critical to their success.
+
 
 ### [Inria](http://www.inria.fr/)
 
