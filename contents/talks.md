@@ -55,7 +55,7 @@ blockquote p {
 
 **Joris Van Den Bossche** (Ghent University): “Introduction to Pandas”
 
-> **Abstract**: Basic introduction to pandas, explaining the key concepts and defining features
+> **Abstract**: Pandas is becoming the fundamental library for manipulating and analyzing structured data, providing high-performance, easy-to-use data structures and data analysis tools. This talk will give a basic introduction to pandas, explaining the key concepts and defining features.
 
 > **Bio**: I am a PhD student at Ghent University (Department of Mathematical Modelling, Statistics and Bio-informatics) working on mobile air quality monitoring in collaboration with VITO (Flemish Institute for Technological Research). I am also a contributor to pandas, and since a year a member of the core development team.
 
