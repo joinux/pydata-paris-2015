@@ -6,6 +6,9 @@ build:
 serve:
 	wintersmith preview
 
+zip:
+	zip -r contents/static/pdf/all-slides.zip slides
+
 deploy: build
 	fab deploy
 
