@@ -1,10 +1,10 @@
 .PHONY: serve build
 
 build:
-	wintersmith build
+	./node_modules/.bin/wintersmith build
 
 serve:
-	wintersmith preview
+	./node_modules/.bin/wintersmith preview
 
 zip:
 	zip -r contents/static/pdf/all-slides.zip slides
